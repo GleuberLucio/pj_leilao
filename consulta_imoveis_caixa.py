@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import Select
 import time
 
 # Atualize aqui o caminho completo para o ChromeDriver
-CAMINHO_DRIVER = "/content/drive/MyDrive/Colab Notebooks/Libs/chromedriver.exe"
+CAMINHO_DRIVER = "chromedriver.exe"
 
 # URL do site da Caixa
 URL_CAIXA = "https://venda-imoveis.caixa.gov.br/sistema/busca-imovel.asp"
