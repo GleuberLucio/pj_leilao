@@ -1,12 +1,13 @@
 import pandas as pd
 
 # Caminho do arquivo baixado
-CAMINHO_ARQUIVO = r"C:\Users\gleuber.silva\Downloads\Lista_imoveis_DF (4).csv"
+# CAMINHO_ARQUIVO = r"C:\Users\gleuber.silva\Downloads\Lista_imoveis_DF (1).csv"
+CAMINHO_ARQUIVO = r"C:\Users\gleub\Downloads\Lista_imoveis_DF (1).csv"
 
 def ler_e_formatar_arquivo_csv(caminho_arquivo):
     try:
         # Lendo o arquivo CSV
-        df = pd.read_csv(caminho_arquivo, encoding="utf-8", sep=";")  # Ajuste o separador e encoding conforme necessário
+        df = pd.read_csv(caminho_arquivo, encoding="latin-1", sep=";")  # Ajuste o separador e encoding conforme necessário
         print("Arquivo lido com sucesso!")
 
         # Exibindo as primeiras linhas para inspecionar

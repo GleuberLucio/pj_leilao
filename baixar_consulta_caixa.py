@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import Select
 import time
 
 # Atualize aqui o caminho completo para o ChromeDriver
-CAMINHO_DRIVER =r"C:\Users\gleuber.silva\OneDrive\Python\GIT\pj_leilao\chromedriver.exe"
+CAMINHO_DRIVER =r"C:\Users\gleub\OneDrive\Documentos\Cursos\Python\pj_leilao\chromedriver.exe"
 
 # URL do site da Caixa
 URL_CAIXA = "https://venda-imoveis.caixa.gov.br/sistema/download-lista.asp"
